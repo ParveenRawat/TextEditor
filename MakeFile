@@ -1,0 +1,5 @@
+CC = gcc
+CFLAGS = -Wall -Wextra -pedantic -std=c99
+
+textEditor: textEditor.c
+	$(CC) textEditor.c -o textEditor $(CFLAGS)
